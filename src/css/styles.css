@@ -1,0 +1,14 @@
+@import url('./loader.css');
+@import url('./base.css');
+@import url('./container.css');
+
+/* Sections style */
+@import url('./gallery.css');
+@import url('./vite-promo.css');
+@import url('./badges.css');
+@import url('./back-link.css');
+@import url('./footer.css');
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  background-attachment: fixed;
+}
