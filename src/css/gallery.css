@@ -10,6 +10,8 @@ label {
 
 input,
 textarea {
+  display: block;
+  margin: 35px auto;
   padding: 8px;
   border: 1px solid #bbb;
   border-radius: 4px;
@@ -36,7 +38,7 @@ button:hover {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 58px 24px;
+  gap: 72px 24px;
   list-style: none;
   padding: 40px 0;
   margin: 0 auto;
@@ -53,14 +55,15 @@ button:hover {
 }
 
 .gallery-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .gallery-link {
   text-decoration: none;
 }
 
-.gallery-image {
+.gallery-image,
+img {
   width: 360px;
   height: 300px;
   display: block;
@@ -79,4 +82,12 @@ button:hover {
 }
 .info-item-current {
   text-align: center;
+}
+.hidden {
+  display: none;
+}
+.load-btn {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0;
 }
